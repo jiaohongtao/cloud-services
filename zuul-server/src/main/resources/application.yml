@@ -10,4 +10,9 @@ eureka:
       defaultZone: http://localhost:9999/eureka
 
 zuul:
-  prefix: /api
+  #prefix: /api
+  #strip-prefix: true
+  routes:
+    service-server:
+      path: /service/**
+      url: http://localhost:10011
