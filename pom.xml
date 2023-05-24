@@ -5,6 +5,12 @@
     <groupId>com.hong</groupId>
     <artifactId>cloud-services</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <modules>
+        <module>eureka-server</module>
+        <module>zuul-server</module>
+        <module>service-server</module>
+        <module>api-server</module>
+    </modules>
     <name>cloud-services</name>
     <description>cloud-services</description>
     <packaging>pom</packaging>

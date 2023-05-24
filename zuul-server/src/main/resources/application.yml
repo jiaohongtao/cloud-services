@@ -16,3 +16,6 @@ zuul:
     service-server:
       path: /service/**
       url: http://localhost:10011
+    api-server:
+      path: /api/**
+      url: http://localhost:10012
